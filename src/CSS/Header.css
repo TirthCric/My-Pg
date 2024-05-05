@@ -1,0 +1,54 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.navbar{
+    font-family: "Railway" , sans-serif;
+    position: relative;
+    padding: 10px;
+    height: 70px;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    background-color: #1D597D;
+  }
+  .header-logo-section {
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin-right: 40px;
+  }
+  
+  .navbar--logo {
+   width: 100px;
+    /* border: 2px solid black; */
+    
+  }
+  
+  .nav-items {
+    position: relative;
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 2px solid black; */
+    /* padding: 5px; */
+    font-size: 1rem;
+    color: white;
+    white-space: nowrap;
+    margin: 0px auto 0px 10px;
+}
+.nav-items > .item {
+      text-decoration: none;
+      list-style: none;
+    padding: 10px;
+    margin: 0px 10px;
+    cursor: pointer;
+  }
+  .link-item {
+    text-decoration: none;
+    color: white;
+  }

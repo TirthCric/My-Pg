@@ -1,0 +1,56 @@
+/* footer.css */
+.foot-top {
+    background: #111;
+    color: #fff;
+    padding: 40px 0;
+}
+
+.foot-logo img {
+    width: 150px;
+}
+
+.contactinfo h3 {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.contactinfo p {
+    margin-bottom: 10px;
+}
+
+.contactinfo ul {
+    padding: 0;
+    list-style: none;
+}
+
+.contactinfo ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.contactinfo ul li a {
+    color: #fff;
+    font-size: 18px;
+}
+
+.contactinfo .keywords {
+    margin-bottom: 10px;
+}
+
+.facebook-icon,
+.twitter-icon,
+.instagram-icon,
+.linkedin-icon,
+.youtube-icon {
+    color: #fff;
+    font-size: 24px;
+    margin-right: 10px;
+}
+
+.clearfix {
+    clear: both;
+}
+
+.links .keywords {
+    margin-bottom: 5px;
+}

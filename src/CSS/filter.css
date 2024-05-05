@@ -1,0 +1,57 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.filter-container{
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    width: 25.5%;
+    background-color: white;
+
+}
+.filter-heading {
+    color:#83B6B9;
+    font-size: 1.2rem;
+    margin: .25rem;
+}
+.pg-sec{
+    margin: .4rem;
+    list-style: none;
+}
+.pg-sec > li{
+    font-size: .9rem;
+    margin: .25rem;
+    width: 40%;
+    /* border: 2px solid black; */
+}
+.list-items {
+    list-style: none;
+    display: flex;
+}
+.pg-sec > input , .pg-sec > li > input{
+    margin-right: .5rem;
+}
+.pg-sec > label{
+   margin-right: .5rem;
+   white-space: nowrap;
+}
+.pg-sec > ul > li > label {
+    white-space: nowrap;
+    margin-left: .2rem;
+    margin-right: 1rem;
+}
+
+.sub-heading{
+    margin-bottom: .4rem;
+    font-weight: bold;
+}
+.room-items {
+    width: 40%;
+    display: inline-block;
+}
+
+

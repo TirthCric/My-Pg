@@ -1,0 +1,123 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.main-section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background: url("https://bookmypg.co.in/assets/front/images/headline-bg.png")  no-repeat center  ;
+    background-size: 100vw;
+    /* border: 2px solid black; */
+    height: 100vh;
+  }
+  .main-section-background-image > img{
+    width: 100%;  
+  }
+  
+  .main-section--heading {
+    margin: 200px auto 15px auto;
+    font-size: 2.5rem;
+    color: #1D597D;
+  }
+  .main-section--heading-description {
+    margin: 0px auto 20px auto;
+    font-size: 1rem;
+    color: #1D597D;
+  }
+  
+  .main-section-buttons {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    height: 50px;
+    /* border: 2px solid black; */
+    margin: 30px auto 0px auto;
+    font-size: 1.5rem;
+  }
+  
+  .main-section-buttons > .btn {
+    width: 100%;
+    padding: 10px;
+    /* margin: 10px;  */
+    text-align: center;
+    border: 2px solid #83B6B9;
+    cursor: pointer;
+    border-collapse:collapse;
+    
+  }
+  
+  .main-section-search-bar{
+    display: flex;
+    justify-content: center;
+    margin: 0px auto 20px auto;
+    width: 50%;
+    border: 2px solid #83B6B9;
+  }
+  .section-m {
+    width: 100%;
+    border: 2px solid black;
+  }
+  
+  
+  .search-bar-input > input[type = "text"] {
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    /* border: none; */
+    outline: none;
+  }
+  
+  .search-bar-btn{
+    width: 25%;
+    background-color: #1D597D;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    cursor: pointer;
+  }
+  .search-bar-btn > *{
+    display: flex;
+    align-items: center;
+  }
+  .search-bar-svg {
+   
+    width: 20px;
+    margin: 5px 5px 0px 5px;
+    fill: white;
+  }
+  
+  /* Styles for displaying search results */
+.search-results {
+  margin-top: 10px;
+  border: 2px solid black;
+  width: 50%;
+  position: absolute;
+  top: 17%;
+  left: 25%;
+  overflow: hidden;
+  overflow-y: scroll;
+  height: 200px;
+}
+
+.search-results ul {
+  list-style: none;
+  padding: 0;
+}
+
+.search-results ul li {
+  background-color: #f0f0f0;
+  padding: 10px;
+  margin-bottom: 5px;
+  cursor: pointer;
+}
+
+.search-results ul li:hover {
+  background-color: #e0e0e0;
+}
